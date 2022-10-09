@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		D44F91FD28F2CD530018349C /* thirdPartyLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = D44F91FC28F2CD530018349C /* thirdPartyLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D44F920928F2CFAB0018349C /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44F920828F2CFAB0018349C /* Validator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D44F91F928F2CD530018349C /* thirdPartyLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = thirdPartyLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D44F91FC28F2CD530018349C /* thirdPartyLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = thirdPartyLoader.h; sourceTree = "<group>"; };
+		D44F920628F2CF630018349C /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		D44F920828F2CFAB0018349C /* Validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +34,7 @@
 			children = (
 				D44F91FB28F2CD530018349C /* thirdPartyLoader */,
 				D44F91FA28F2CD530018349C /* Products */,
+				D44F920528F2CF630018349C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -45,9 +49,18 @@
 		D44F91FB28F2CD530018349C /* thirdPartyLoader */ = {
 			isa = PBXGroup;
 			children = (
+				D44F920828F2CFAB0018349C /* Validator.swift */,
 				D44F91FC28F2CD530018349C /* thirdPartyLoader.h */,
 			);
 			path = thirdPartyLoader;
+			sourceTree = "<group>";
+		};
+		D44F920528F2CF630018349C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D44F920628F2CF630018349C /* AddressBookUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +106,7 @@
 				TargetAttributes = {
 					D44F91F828F2CD530018349C = {
 						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
 					};
 				};
 			};
@@ -129,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D44F920928F2CFAB0018349C /* Validator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +273,7 @@
 		D44F920128F2CD530018349C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -279,6 +295,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -287,6 +304,7 @@
 		D44F920228F2CD530018349C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
