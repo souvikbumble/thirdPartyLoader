@@ -9,13 +9,73 @@
 /* Begin PBXBuildFile section */
 		D44F91FD28F2CD530018349C /* thirdPartyLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = D44F91FC28F2CD530018349C /* thirdPartyLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D44F920928F2CFAB0018349C /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44F920828F2CFAB0018349C /* Validator.swift */; };
+		D4AFE5CB28F8AC3100E42928 /* ServerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AFE59A28F8AC3100E42928 /* ServerConstants.swift */; };
+		D4AFE5CC28F8AC3100E42928 /* UIStringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AFE59B28F8AC3100E42928 /* UIStringConstants.swift */; };
+		D4AFE5CD28F8AC3100E42928 /* UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AFE59D28F8AC3100E42928 /* UIDeviceExtension.swift */; };
+		D4AFE5CE28F8AC3100E42928 /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AFE59E28F8AC3100E42928 /* DataExtension.swift */; };
+		D4AFE5CF28F8AC3100E42928 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AFE59F28F8AC3100E42928 /* StringExtension.swift */; };
+		D4AFE5D028F8AC3100E42928 /* ErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AFE5A028F8AC3100E42928 /* ErrorExtension.swift */; };
+		D4AFE5D128F8AC3100E42928 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AFE5A128F8AC3100E42928 /* DateExtension.swift */; };
+		D4AFE5D228F8AC3100E42928 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AFE5A328F8AC3100E42928 /* Logger.swift */; };
+		D4AFE5D328F8AC3100E42928 /* CommonUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AFE5A428F8AC3100E42928 /* CommonUtility.swift */; };
+		D4AFE5D528F8AC3100E42928 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AFE5A928F8AC3100E42928 /* AppError.swift */; };
+		D4AFE5D628F8AC3100E42928 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AFE5AA28F8AC3100E42928 /* BaseModel.swift */; };
+		D4AFE5D728F8AC3100E42928 /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AFE5AD28F8AC3100E42928 /* ApiConstants.swift */; };
+		D4AFE5D828F8AC3100E42928 /* GUAppConifgCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AFE5AF28F8AC3100E42928 /* GUAppConifgCache.swift */; };
+		D4AFE5D928F8AC3100E42928 /* AppCacheData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AFE5B028F8AC3100E42928 /* AppCacheData.swift */; };
+		D4AFE5DA28F8AC3100E42928 /* PrivacyPolicyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AFE5B428F8AC3100E42928 /* PrivacyPolicyRequest.swift */; };
+		D4AFE5DB28F8AC3100E42928 /* LocalAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AFE5B628F8AC3100E42928 /* LocalAgent.swift */; };
+		D4AFE5DC28F8AC3100E42928 /* AgentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AFE5B728F8AC3100E42928 /* AgentProtocol.swift */; };
+		D4AFE5DD28F8AC3100E42928 /* NetworkAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AFE5B828F8AC3100E42928 /* NetworkAgent.swift */; };
+		D4AFE5DE28F8AC3100E42928 /* BaseAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AFE5B928F8AC3100E42928 /* BaseAgent.swift */; };
+		D4AFE5DF28F8AC3100E42928 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AFE5BB28F8AC3100E42928 /* ApiManager.swift */; };
+		D4AFE5E028F8AC3100E42928 /* ApiRequestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AFE5BD28F8AC3100E42928 /* ApiRequestable.swift */; };
+		D4AFE5E228F8AC3100E42928 /* ApiRequestableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AFE5BF28F8AC3100E42928 /* ApiRequestableProtocol.swift */; };
+		D4AFE5E328F8AC3100E42928 /* ApiEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AFE5C028F8AC3100E42928 /* ApiEndPoint.swift */; };
+		D4AFE5E428F8AC3100E42928 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AFE5C228F8AC3100E42928 /* BaseResponse.swift */; };
+		D4AFE5E528F8AC3100E42928 /* SplashScreenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AFE5C328F8AC3100E42928 /* SplashScreenResponse.swift */; };
+		D4AFE5E628F8AC3100E42928 /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AFE5C428F8AC3100E42928 /* ApiResponse.swift */; };
+		D4AFE5E728F8AC3100E42928 /* SplashScreenAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AFE5C628F8AC3100E42928 /* SplashScreenAPIManager.swift */; };
+		D4AFE5E828F8AC3100E42928 /* LaunchTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AFE5CA28F8AC3100E42928 /* LaunchTestViewController.swift */; };
+		D9A325D9F7947E9F277C1B61 /* Pods_thirdPartyLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F36108CDF68F9B3961D15231 /* Pods_thirdPartyLoader.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC771552F13588395ECC3B6E /* Pods-thirdPartyLoader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thirdPartyLoader.release.xcconfig"; path = "Target Support Files/Pods-thirdPartyLoader/Pods-thirdPartyLoader.release.xcconfig"; sourceTree = "<group>"; };
 		D44F91F928F2CD530018349C /* thirdPartyLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = thirdPartyLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D44F91FC28F2CD530018349C /* thirdPartyLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = thirdPartyLoader.h; sourceTree = "<group>"; };
 		D44F920628F2CF630018349C /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 		D44F920828F2CFAB0018349C /* Validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		D4958E0748FC81AE9F1BB844 /* Pods-thirdPartyLoader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thirdPartyLoader.debug.xcconfig"; path = "Target Support Files/Pods-thirdPartyLoader/Pods-thirdPartyLoader.debug.xcconfig"; sourceTree = "<group>"; };
+		D4AFE59A28F8AC3100E42928 /* ServerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerConstants.swift; sourceTree = "<group>"; };
+		D4AFE59B28F8AC3100E42928 /* UIStringConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStringConstants.swift; sourceTree = "<group>"; };
+		D4AFE59D28F8AC3100E42928 /* UIDeviceExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExtension.swift; sourceTree = "<group>"; };
+		D4AFE59E28F8AC3100E42928 /* DataExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataExtension.swift; sourceTree = "<group>"; };
+		D4AFE59F28F8AC3100E42928 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		D4AFE5A028F8AC3100E42928 /* ErrorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorExtension.swift; sourceTree = "<group>"; };
+		D4AFE5A128F8AC3100E42928 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		D4AFE5A328F8AC3100E42928 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		D4AFE5A428F8AC3100E42928 /* CommonUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonUtility.swift; sourceTree = "<group>"; };
+		D4AFE5A928F8AC3100E42928 /* AppError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		D4AFE5AA28F8AC3100E42928 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		D4AFE5AD28F8AC3100E42928 /* ApiConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiConstants.swift; sourceTree = "<group>"; };
+		D4AFE5AF28F8AC3100E42928 /* GUAppConifgCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GUAppConifgCache.swift; sourceTree = "<group>"; };
+		D4AFE5B028F8AC3100E42928 /* AppCacheData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCacheData.swift; sourceTree = "<group>"; };
+		D4AFE5B428F8AC3100E42928 /* PrivacyPolicyRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyRequest.swift; sourceTree = "<group>"; };
+		D4AFE5B628F8AC3100E42928 /* LocalAgent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalAgent.swift; sourceTree = "<group>"; };
+		D4AFE5B728F8AC3100E42928 /* AgentProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgentProtocol.swift; sourceTree = "<group>"; };
+		D4AFE5B828F8AC3100E42928 /* NetworkAgent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkAgent.swift; sourceTree = "<group>"; };
+		D4AFE5B928F8AC3100E42928 /* BaseAgent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseAgent.swift; sourceTree = "<group>"; };
+		D4AFE5BB28F8AC3100E42928 /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		D4AFE5BD28F8AC3100E42928 /* ApiRequestable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRequestable.swift; sourceTree = "<group>"; };
+		D4AFE5BF28F8AC3100E42928 /* ApiRequestableProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRequestableProtocol.swift; sourceTree = "<group>"; };
+		D4AFE5C028F8AC3100E42928 /* ApiEndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiEndPoint.swift; sourceTree = "<group>"; };
+		D4AFE5C228F8AC3100E42928 /* BaseResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		D4AFE5C328F8AC3100E42928 /* SplashScreenResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenResponse.swift; sourceTree = "<group>"; };
+		D4AFE5C428F8AC3100E42928 /* ApiResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
+		D4AFE5C628F8AC3100E42928 /* SplashScreenAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenAPIManager.swift; sourceTree = "<group>"; };
+		D4AFE5CA28F8AC3100E42928 /* LaunchTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchTestViewController.swift; sourceTree = "<group>"; };
+		F36108CDF68F9B3961D15231 /* Pods_thirdPartyLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_thirdPartyLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -23,18 +83,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9A325D9F7947E9F277C1B61 /* Pods_thirdPartyLoader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30C3DA81BAFDAE497CF9CAD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4958E0748FC81AE9F1BB844 /* Pods-thirdPartyLoader.debug.xcconfig */,
+				BC771552F13588395ECC3B6E /* Pods-thirdPartyLoader.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D44F91EF28F2CD530018349C = {
 			isa = PBXGroup;
 			children = (
 				D44F91FB28F2CD530018349C /* thirdPartyLoader */,
 				D44F91FA28F2CD530018349C /* Products */,
 				D44F920528F2CF630018349C /* Frameworks */,
+				30C3DA81BAFDAE497CF9CAD0 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +120,9 @@
 		D44F91FB28F2CD530018349C /* thirdPartyLoader */ = {
 			isa = PBXGroup;
 			children = (
+				D4AFE5C928F8AC3100E42928 /* ApiCall */,
+				D4AFE5B128F8AC3100E42928 /* Backend */,
+				D4AFE59828F8AC3100E42928 /* Source */,
 				D44F920828F2CFAB0018349C /* Validator.swift */,
 				D44F91FC28F2CD530018349C /* thirdPartyLoader.h */,
 			);
@@ -59,8 +133,202 @@
 			isa = PBXGroup;
 			children = (
 				D44F920628F2CF630018349C /* AddressBookUI.framework */,
+				F36108CDF68F9B3961D15231 /* Pods_thirdPartyLoader.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4AFE59828F8AC3100E42928 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D4AFE59928F8AC3100E42928 /* Constants */,
+				D4AFE59C28F8AC3100E42928 /* Extensions */,
+				D4AFE5A228F8AC3100E42928 /* Utilities */,
+				D4AFE5A528F8AC3100E42928 /* Manager */,
+				D4AFE5A728F8AC3100E42928 /* Common */,
+				D4AFE5AB28F8AC3100E42928 /* ApiService */,
+				D4AFE5AE28F8AC3100E42928 /* caching */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		D4AFE59928F8AC3100E42928 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				D4AFE59A28F8AC3100E42928 /* ServerConstants.swift */,
+				D4AFE59B28F8AC3100E42928 /* UIStringConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		D4AFE59C28F8AC3100E42928 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D4AFE59D28F8AC3100E42928 /* UIDeviceExtension.swift */,
+				D4AFE59E28F8AC3100E42928 /* DataExtension.swift */,
+				D4AFE59F28F8AC3100E42928 /* StringExtension.swift */,
+				D4AFE5A028F8AC3100E42928 /* ErrorExtension.swift */,
+				D4AFE5A128F8AC3100E42928 /* DateExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D4AFE5A228F8AC3100E42928 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D4AFE5A328F8AC3100E42928 /* Logger.swift */,
+				D4AFE5A428F8AC3100E42928 /* CommonUtility.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D4AFE5A528F8AC3100E42928 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		D4AFE5A728F8AC3100E42928 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D4AFE5A828F8AC3100E42928 /* Entity */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D4AFE5A828F8AC3100E42928 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				D4AFE5A928F8AC3100E42928 /* AppError.swift */,
+				D4AFE5AA28F8AC3100E42928 /* BaseModel.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		D4AFE5AB28F8AC3100E42928 /* ApiService */ = {
+			isa = PBXGroup;
+			children = (
+				D4AFE5AC28F8AC3100E42928 /* Constant */,
+			);
+			path = ApiService;
+			sourceTree = "<group>";
+		};
+		D4AFE5AC28F8AC3100E42928 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				D4AFE5AD28F8AC3100E42928 /* ApiConstants.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		D4AFE5AE28F8AC3100E42928 /* caching */ = {
+			isa = PBXGroup;
+			children = (
+				D4AFE5AF28F8AC3100E42928 /* GUAppConifgCache.swift */,
+				D4AFE5B028F8AC3100E42928 /* AppCacheData.swift */,
+			);
+			path = caching;
+			sourceTree = "<group>";
+		};
+		D4AFE5B128F8AC3100E42928 /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+				D4AFE5B228F8AC3100E42928 /* Server */,
+				D4AFE5C728F8AC3100E42928 /* DirectServer */,
+				D4AFE5C828F8AC3100E42928 /* Offiline */,
+			);
+			path = Backend;
+			sourceTree = "<group>";
+		};
+		D4AFE5B228F8AC3100E42928 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				D4AFE5B328F8AC3100E42928 /* RequestModel */,
+				D4AFE5B528F8AC3100E42928 /* Agent */,
+				D4AFE5BA28F8AC3100E42928 /* Manager */,
+				D4AFE5BC28F8AC3100E42928 /* Common */,
+				D4AFE5C128F8AC3100E42928 /* ResponseModel */,
+				D4AFE5C528F8AC3100E42928 /* Helper */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		D4AFE5B328F8AC3100E42928 /* RequestModel */ = {
+			isa = PBXGroup;
+			children = (
+				D4AFE5B428F8AC3100E42928 /* PrivacyPolicyRequest.swift */,
+			);
+			path = RequestModel;
+			sourceTree = "<group>";
+		};
+		D4AFE5B528F8AC3100E42928 /* Agent */ = {
+			isa = PBXGroup;
+			children = (
+				D4AFE5B628F8AC3100E42928 /* LocalAgent.swift */,
+				D4AFE5B728F8AC3100E42928 /* AgentProtocol.swift */,
+				D4AFE5B828F8AC3100E42928 /* NetworkAgent.swift */,
+				D4AFE5B928F8AC3100E42928 /* BaseAgent.swift */,
+			);
+			path = Agent;
+			sourceTree = "<group>";
+		};
+		D4AFE5BA28F8AC3100E42928 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				D4AFE5BB28F8AC3100E42928 /* ApiManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		D4AFE5BC28F8AC3100E42928 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D4AFE5BD28F8AC3100E42928 /* ApiRequestable.swift */,
+				D4AFE5BF28F8AC3100E42928 /* ApiRequestableProtocol.swift */,
+				D4AFE5C028F8AC3100E42928 /* ApiEndPoint.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D4AFE5C128F8AC3100E42928 /* ResponseModel */ = {
+			isa = PBXGroup;
+			children = (
+				D4AFE5C228F8AC3100E42928 /* BaseResponse.swift */,
+				D4AFE5C328F8AC3100E42928 /* SplashScreenResponse.swift */,
+				D4AFE5C428F8AC3100E42928 /* ApiResponse.swift */,
+			);
+			path = ResponseModel;
+			sourceTree = "<group>";
+		};
+		D4AFE5C528F8AC3100E42928 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D4AFE5C628F8AC3100E42928 /* SplashScreenAPIManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		D4AFE5C728F8AC3100E42928 /* DirectServer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DirectServer;
+			sourceTree = "<group>";
+		};
+		D4AFE5C828F8AC3100E42928 /* Offiline */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Offiline;
+			sourceTree = "<group>";
+		};
+		D4AFE5C928F8AC3100E42928 /* ApiCall */ = {
+			isa = PBXGroup;
+			children = (
+				D4AFE5CA28F8AC3100E42928 /* LaunchTestViewController.swift */,
+			);
+			path = ApiCall;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,10 +349,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D44F920028F2CD530018349C /* Build configuration list for PBXNativeTarget "thirdPartyLoader" */;
 			buildPhases = (
+				53D11D50C3868902952F09F2 /* [CP] Check Pods Manifest.lock */,
 				D44F91F428F2CD530018349C /* Headers */,
 				D44F91F528F2CD530018349C /* Sources */,
 				D44F91F628F2CD530018349C /* Frameworks */,
 				D44F91F728F2CD530018349C /* Resources */,
+				C4F5A47A1E559BAA06354D80 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,12 +408,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		53D11D50C3868902952F09F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-thirdPartyLoader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4F5A47A1E559BAA06354D80 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-thirdPartyLoader/Pods-thirdPartyLoader-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-thirdPartyLoader/Pods-thirdPartyLoader-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-thirdPartyLoader/Pods-thirdPartyLoader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D44F91F528F2CD530018349C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4AFE5D728F8AC3100E42928 /* ApiConstants.swift in Sources */,
+				D4AFE5E628F8AC3100E42928 /* ApiResponse.swift in Sources */,
+				D4AFE5CB28F8AC3100E42928 /* ServerConstants.swift in Sources */,
+				D4AFE5E728F8AC3100E42928 /* SplashScreenAPIManager.swift in Sources */,
+				D4AFE5D328F8AC3100E42928 /* CommonUtility.swift in Sources */,
+				D4AFE5E028F8AC3100E42928 /* ApiRequestable.swift in Sources */,
+				D4AFE5DA28F8AC3100E42928 /* PrivacyPolicyRequest.swift in Sources */,
+				D4AFE5D128F8AC3100E42928 /* DateExtension.swift in Sources */,
+				D4AFE5D628F8AC3100E42928 /* BaseModel.swift in Sources */,
+				D4AFE5DF28F8AC3100E42928 /* ApiManager.swift in Sources */,
+				D4AFE5E828F8AC3100E42928 /* LaunchTestViewController.swift in Sources */,
+				D4AFE5DD28F8AC3100E42928 /* NetworkAgent.swift in Sources */,
+				D4AFE5CD28F8AC3100E42928 /* UIDeviceExtension.swift in Sources */,
+				D4AFE5DB28F8AC3100E42928 /* LocalAgent.swift in Sources */,
+				D4AFE5DE28F8AC3100E42928 /* BaseAgent.swift in Sources */,
+				D4AFE5CF28F8AC3100E42928 /* StringExtension.swift in Sources */,
+				D4AFE5E328F8AC3100E42928 /* ApiEndPoint.swift in Sources */,
+				D4AFE5D228F8AC3100E42928 /* Logger.swift in Sources */,
+				D4AFE5DC28F8AC3100E42928 /* AgentProtocol.swift in Sources */,
+				D4AFE5CC28F8AC3100E42928 /* UIStringConstants.swift in Sources */,
+				D4AFE5E228F8AC3100E42928 /* ApiRequestableProtocol.swift in Sources */,
+				D4AFE5E428F8AC3100E42928 /* BaseResponse.swift in Sources */,
 				D44F920928F2CFAB0018349C /* Validator.swift in Sources */,
+				D4AFE5D528F8AC3100E42928 /* AppError.swift in Sources */,
+				D4AFE5D828F8AC3100E42928 /* GUAppConifgCache.swift in Sources */,
+				D4AFE5D928F8AC3100E42928 /* AppCacheData.swift in Sources */,
+				D4AFE5D028F8AC3100E42928 /* ErrorExtension.swift in Sources */,
+				D4AFE5CE28F8AC3100E42928 /* DataExtension.swift in Sources */,
+				D4AFE5E528F8AC3100E42928 /* SplashScreenResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +612,7 @@
 		};
 		D44F920128F2CD530018349C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4958E0748FC81AE9F1BB844 /* Pods-thirdPartyLoader.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -303,6 +644,7 @@
 		};
 		D44F920228F2CD530018349C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC771552F13588395ECC3B6E /* Pods-thirdPartyLoader.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;

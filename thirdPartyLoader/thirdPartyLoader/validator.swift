@@ -21,4 +21,23 @@ public struct Validator {
         
         print("i am WORKING on it.")
     }
+    
+    public func getSplashScreenAPiCall(splashAPIManager: ApiManager){
+        var manager = splashAPIManager
+        
+        splashAPIManager.getSplashScreenDetails().done { response in
+            print(response)
+//            self.splashResponse = response
+//            if let asserts = self.splashResponse?.assets {
+//                //self.downloadAndSaveImages(splashImageUrl: asserts.at(index: 0)?.itemThumbnail ?? "")
+//            }
+        }.catch { error in
+            if let appError = error as? AppError {
+                Logger.log(logLevel: .verbose, "Unable to load splash screen \(appError.localizedErrorDescription)")
+            }
+        }.finally {
+            
+        }
+    }
+    
 }

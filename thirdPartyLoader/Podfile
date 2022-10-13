@@ -1,0 +1,21 @@
+platform :ios, '10.0'
+use_frameworks!
+inhibit_all_warnings!
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+def mfp_sdk_pods
+    pod ‘IBMMobileFirstPlatformFoundation‘, '8.0.2021101914'
+end
+
+target 'thirdPartyLoader' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  pod 'ObjectMapper'
+  mfp_sdk_pods
+  pod 'AlamofireImage'
+  pod 'ReachabilitySwift'
+  pod 'PromiseKit'
+  pod 'GBDeviceInfo'
+  # Pods for thirdPartyLoader
+
+end

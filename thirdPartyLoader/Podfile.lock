@@ -1,0 +1,50 @@
+PODS:
+  - Alamofire (5.6.2)
+  - AlamofireImage (4.2.0):
+    - Alamofire (~> 5.4)
+  - GBDeviceInfo (6.7.0):
+    - GBDeviceInfo/Core (= 6.7.0)
+  - GBDeviceInfo/Core (6.7.0)
+  - IBMMobileFirstPlatformFoundation (8.0.2021101914)
+  - ObjectMapper (4.2.0)
+  - PromiseKit (6.18.1):
+    - PromiseKit/CorePromise (= 6.18.1)
+    - PromiseKit/Foundation (= 6.18.1)
+    - PromiseKit/UIKit (= 6.18.1)
+  - PromiseKit/CorePromise (6.18.1)
+  - PromiseKit/Foundation (6.18.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.18.1):
+    - PromiseKit/CorePromise
+  - ReachabilitySwift (5.0.0)
+
+DEPENDENCIES:
+  - AlamofireImage
+  - GBDeviceInfo
+  - IBMMobileFirstPlatformFoundation (= 8.0.2021101914)
+  - ObjectMapper
+  - PromiseKit
+  - ReachabilitySwift
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - AlamofireImage
+    - GBDeviceInfo
+    - IBMMobileFirstPlatformFoundation
+    - ObjectMapper
+    - PromiseKit
+    - ReachabilitySwift
+
+SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
+  GBDeviceInfo: c1a46e3fe1b5406a0ebaa60f8a871cfed9da9a42
+  IBMMobileFirstPlatformFoundation: b76d1ce1f4046d8f4a969ddc021b566f4b2ace5f
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  PromiseKit: 49d70c53d5d20e346beaea4b276b5dd2ab446bb4
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+
+PODFILE CHECKSUM: 06bde8c760f4254eae2e6269498e9f5548eb9ed6
+
+COCOAPODS: 1.11.3
