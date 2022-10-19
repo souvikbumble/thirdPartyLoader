@@ -11,5 +11,11 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/souvikbumble/thirdPartyLoader.git", :tag => "1.0.1" }
   spec.source_files  = "thirdPartyLoader/**/*.{swift}"
   spec.swift_versions = "5.0"
+  spec.dependency 'IBMMobileFirstPlatformFoundation', '8.0.2021101914'
+  spec.dependency 'ObjectMapper'
+  spec.dependency 'AlamofireImage'
+  spec.dependency 'ReachabilitySwift'
+  spec.dependency 'PromiseKit'
+  spec.dependency 'GBDeviceInfo'
 
 end

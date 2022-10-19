@@ -144,7 +144,6 @@
 				D4AFE59928F8AC3100E42928 /* Constants */,
 				D4AFE59C28F8AC3100E42928 /* Extensions */,
 				D4AFE5A228F8AC3100E42928 /* Utilities */,
-				D4AFE5A528F8AC3100E42928 /* Manager */,
 				D4AFE5A728F8AC3100E42928 /* Common */,
 				D4AFE5AB28F8AC3100E42928 /* ApiService */,
 				D4AFE5AE28F8AC3100E42928 /* caching */,
@@ -180,13 +179,6 @@
 				D4AFE5A428F8AC3100E42928 /* CommonUtility.swift */,
 			);
 			path = Utilities;
-			sourceTree = "<group>";
-		};
-		D4AFE5A528F8AC3100E42928 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Manager;
 			sourceTree = "<group>";
 		};
 		D4AFE5A728F8AC3100E42928 /* Common */ = {
@@ -235,8 +227,6 @@
 			isa = PBXGroup;
 			children = (
 				D4AFE5B228F8AC3100E42928 /* Server */,
-				D4AFE5C728F8AC3100E42928 /* DirectServer */,
-				D4AFE5C828F8AC3100E42928 /* Offiline */,
 			);
 			path = Backend;
 			sourceTree = "<group>";
@@ -307,20 +297,6 @@
 				D4AFE5C628F8AC3100E42928 /* SplashScreenAPIManager.swift */,
 			);
 			path = Helper;
-			sourceTree = "<group>";
-		};
-		D4AFE5C728F8AC3100E42928 /* DirectServer */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DirectServer;
-			sourceTree = "<group>";
-		};
-		D4AFE5C828F8AC3100E42928 /* Offiline */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Offiline;
 			sourceTree = "<group>";
 		};
 		D4AFE5C928F8AC3100E42928 /* ApiCall */ = {
